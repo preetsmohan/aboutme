@@ -7,7 +7,7 @@
  body {
   font-family: 'Poiret One', cursive;
   background-color: rgb(39, 21, 33);
-  background-image: url("pattern2.png");
+  background-image: url("patterng.jpg");
   padding: 0;
   margin: 0;
   width:100%;
@@ -42,8 +42,8 @@ br{
 }
 
 .content{
-	width:80%;
-	margin-left:10%;
+	width:90%;
+	margin-left:5%;
 
 }
 
@@ -140,26 +140,36 @@ header.sticky {
 
 .filler1{
 	height:400px;
-	background-color:grey;
-	opacity:.5;
+	background-color:blue;
+	background-image:url("pattern3.jpg");
+	background-attachment:fixed;
+	opacity:1;
 }
 .filler2{
 	height:400px;
-	background-color:white;
-	opacity:.3;
+	background-color:teal;
+	background-image:url("pattern4.jpg");
+	background-attachment:fixed;
+	opacity:1;
 }
 .filler3{
 	height:400px;
-	background-color:teal;
-	opacity:.3;
+	background-color:purple;
+		background-image:url("pattern5.jpg");
+	background-attachment:fixed;
+	opacity:1;
 }
 .filler4{
 	height:400px;
-	background-color:black;
-	opacity:.3;
+	background-color:green;
+	background-image:url("pattern6.jpg");
+	background-attachment:fixed;
+	opacity:.7;
 }
 .filler5{
 	height:400px;
 	background-color:pink;
-	opacity:.3;
+		background-image:url("pattern7.jpg");
+	background-attachment:fixed;
+	opacity:.7;
 }
