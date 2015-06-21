@@ -48,30 +48,30 @@
     top: -6px;
 }
 
-.blue{
+.blue:hover{
 	text-shadow: #49ACD0 1px 1px, #49ACD0 2px 2px, #49ACD0 3px 3px;
 }
-.blue:hover{
+.blue{
 	text-shadow: #49ACD0 1px 1px, #49ACD0 2px 2px, #49ACD0 3px 3px,  #49ACD0 4px 4px,  #49ACD0 5px 5px,  #49ACD0 6px 6px;
 }
-.orange{
-	text-shadow: rgb(255, 180, 149) 1px 1px, rgb(255, 180, 149) 2px 2px, rgb(255, 180, 149) 3px 3px;
-	font-size:3em;
-}
 .orange:hover{
+	text-shadow: rgb(255, 180, 149) 1px 1px, rgb(255, 180, 149) 2px 2px, rgb(255, 180, 149) 3px 3px;
+}
+.orange{
 	text-shadow: rgb(255, 180, 149) 1px 1px, rgb(255, 180, 149) 2px 2px, rgb(255, 180, 149) 3px 3px, rgb(255, 180, 149) 4px 4px,  rgb(255, 180, 149) 5px 5px,  rgb(255, 180, 149) 6px 6px;
+	font-size:3em;
+	}
+.purple:hover{
+    text-shadow: rgb(106, 45, 138) 1px 1px, rgb(106, 45, 138) 2px 2px, rgb(106, 45, 138) 3px 3px;
 }
 .purple{
-    text-shadow: rgb(106, 45, 138) 1px 1px, rgb(106, 45, 138) 2px 2px, rgb(106, 45, 138) 3px 3px;
-	font-size:3em;
-}
-.purple:hover{
 	text-shadow: rgb(106, 45, 138) 1px 1px, rgb(106, 45, 138) 2px 2px, rgb(106, 45, 138) 3px 3px, rgb(106, 45, 138) 4px 4px,  rgb(106, 45, 138) 5px 5px,  rgb(106, 45, 138) 6px 6px;
+	font-size:3em;
+	}
+.violet:hover{
+	text-shadow: rgb(65, 42, 120) 1px 1px, rgb(65, 42, 120) 2px 2px, rgb(65, 42, 120) 3px 3px;
 }
 .violet{
-	text-shadow: rgb(65, 42, 120) 1px 1px, rgb(65, 42, 120) 2px 2px, rgb(65, 42, 120) 3px 3px;
-	font-size:2em;
-}
-.violet:hover{
 	text-shadow: rgb(65, 42, 120) 1px 1px, rgb(65, 42, 120) 2px 2px, rgb(65, 42, 120) 3px 3px,  rgb(65, 42, 120) 4px 4px,  rgb(65, 42, 120) 5px 5px,  rgb(65, 42, 120) 6px 6px;
-}
+	font-size:2em;
+	}
