@@ -19,13 +19,25 @@
 
 .navbar{
 	width:100%;
-	background-color:grey;
 	position:fixed;
 	z-index:1;
+	line-height:3em;
+	background-color:grey;
+	padding-left:5px;
+}
+.nav{
+	margin-left:auto;
+	background-color:none;
+	display:inline-block;
 }
 
-.nav{
-	display:inline-block;
+.nav2{
+	float:right;
+	margin:0;
+}	
+
+br{
+	line-height:0px;
 }
 
 .content{
@@ -72,6 +84,12 @@
     top: -6px;
 }
 
+.right{
+text-align:right;
+
+
+}
+
 .blue{
 	text-shadow: #49ACD0 1px 1px, #49ACD0 2px 2px, #49ACD0 3px 3px;
 
@@ -111,6 +129,10 @@ header.sticky {
 }
 .violet:hover{
 	text-shadow: rgb(65, 42, 120) 1px 1px, rgb(65, 42, 120) 2px 2px, rgb(65, 42, 120) 3px 3px,  rgb(65, 42, 120) 4px 4px;;
+}
+
+.small{
+	font-size:1em;
 }
 
 .filler1{
