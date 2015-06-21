@@ -42,6 +42,8 @@ br{
 }
 
 .content{
+	width:80%;
+	margin-left:10%;
 
 }
 
@@ -128,7 +130,7 @@ header.sticky {
 	text-shadow: rgb(65, 42, 120) 1px 1px, rgb(65, 42, 120) 2px 2px, rgb(65, 42, 120) 3px 3px;
 	font-size:2em;
 }
-.violet:hover{
+.violet{
 	text-shadow: rgb(65, 42, 120) 1px 1px, rgb(65, 42, 120) 2px 2px, rgb(65, 42, 120) 3px 3px,  rgb(65, 42, 120) 4px 4px;;
 }
 
