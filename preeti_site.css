@@ -7,7 +7,7 @@
  body {
   font-family: 'Poiret One', cursive;
   background-color: rgb(39, 21, 33);
-  background-image: url("space.jpg");
+  background-image: url("pattern2.png");
   padding: 0;
   margin: 0;
   width:100%;
@@ -16,30 +16,8 @@
   color:white;
 }
 
-.inset{
-	position:fixed;
-	width:97%;
-	height:97%;
-	margin-left:1.5%;
-	margin-top:.75%;
-	background-color: #120D13;
--webkit-box-shadow: inset 0px 0px 20px 3px rgba(0,0,0,1);
--moz-box-shadow: inset 0px 0px 20px 3px rgba(0,0,0,1);
-box-shadow: inset 0px 0px 20px 3px rgba(0,0,0,1);
-	border-radius:1%;
-
-}
-
 .content{
-	width:97%;
-	height:97%;
-	margin-left:1.5%;
-	margin-top:.75%;
-	background-image: url("space.jpg");  /* http://qrohlf.com/trianglify-generator/ */
-	border-radius:1%;
-	-webkit-box-shadow: 0px 0px 36px -7px rgba(22, 63, 68, 1);
--moz-box-shadow:0px 0px 36px -7px rgba(22, 63, 68, 1);
-box-shadow: 0px 0px 36px -7px rgba(22, 63, 68, 1);
+
 }
 
 .introtext{
@@ -53,7 +31,7 @@ box-shadow: 0px 0px 36px -7px rgba(22, 63, 68, 1);
 	 background-image: url("preets.jpg");
 	 width:200px;
 	 height:200px;
-	 border-radius:50%;
+	 border-radius:15%;
 	 margin-left:auto;
 	 margin-right: auto;
 	 -moz-transition: all 0.3s ease-out; /* FF3.7+ */
@@ -63,7 +41,8 @@ box-shadow: 0px 0px 36px -7px rgba(22, 63, 68, 1);
 }
 
 .photo:hover{
-	border-radius:40%;
+	border-radius:5%;
+
 }
 
 .pop{
@@ -81,31 +60,31 @@ box-shadow: 0px 0px 36px -7px rgba(22, 63, 68, 1);
     top: -6px;
 }
 
-.blue:hover{
+.blue{
 	text-shadow: #49ACD0 1px 1px, #49ACD0 2px 2px, #49ACD0 3px 3px;
 
 }
-.blue{
-	text-shadow: #49ACD0 1px 1px, #49ACD0 2px 2px, #49ACD0 3px 3px,  #49ACD0 4px 4px,  #49ACD0 5px 5px,  #49ACD0 6px 6px;
+.blue:hover{
+	text-shadow: #49ACD0 1px 1px, #49ACD0 2px 2px, #49ACD0 3px 3px,  #49ACD0 4px 4px,  #49ACD0 5px 5px;
 }
 .orange{
 	text-shadow: rgb(255, 180, 149) 1px 1px, rgb(255, 180, 149) 2px 2px, rgb(255, 180, 149) 3px 3px;
 	font-size:3em;
 }
 .orange:hover{
-	text-shadow: rgb(255, 180, 149) 1px 1px, rgb(255, 180, 149) 2px 2px, rgb(255, 180, 149) 3px 3px, rgb(255, 180, 149) 4px 4px,  rgb(255, 180, 149) 5px 5px,  rgb(255, 180, 149) 6px 6px;
+	text-shadow: rgb(255, 180, 149) 1px 1px, rgb(255, 180, 149) 2px 2px, rgb(255, 180, 149) 3px 3px, rgb(255, 180, 149) 4px 4px;
 }
 .purple{
     text-shadow: rgb(106, 45, 138) 1px 1px, rgb(106, 45, 138) 2px 2px, rgb(106, 45, 138) 3px 3px;
 	font-size:3em;
 }
 .purple:hover{
-	text-shadow: rgb(106, 45, 138) 1px 1px, rgb(106, 45, 138) 2px 2px, rgb(106, 45, 138) 3px 3px, rgb(106, 45, 138) 4px 4px,  rgb(106, 45, 138) 5px 5px,  rgb(106, 45, 138) 6px 6px;
+	text-shadow: rgb(106, 45, 138) 1px 1px, rgb(106, 45, 138) 2px 2px, rgb(106, 45, 138) 3px 3px, rgb(106, 45, 138) 4px 4px;;
 }
 .violet{
 	text-shadow: rgb(65, 42, 120) 1px 1px, rgb(65, 42, 120) 2px 2px, rgb(65, 42, 120) 3px 3px;
 	font-size:2em;
 }
 .violet:hover{
-	text-shadow: rgb(65, 42, 120) 1px 1px, rgb(65, 42, 120) 2px 2px, rgb(65, 42, 120) 3px 3px,  rgb(65, 42, 120) 4px 4px,  rgb(65, 42, 120) 5px 5px,  rgb(65, 42, 120) 6px 6px;
+	text-shadow: rgb(65, 42, 120) 1px 1px, rgb(65, 42, 120) 2px 2px, rgb(65, 42, 120) 3px 3px,  rgb(65, 42, 120) 4px 4px;;
 }
