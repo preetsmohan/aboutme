@@ -51,11 +51,18 @@ $(window).on('scroll',function () {
 
 });
 
+function scrollToTop(){
+	 $('html, body').animate(
+	 {scrollTop: 0}, 600);
+	 
+	$('.nav').removeClass("selected");
+	 
+};
 
 function scrollToAbout(){
 	 $('html, body').animate({
         scrollTop: $("#about").offset().top
-    }, 400);
+    }, 600);
 	$('.nav').delay(400).removeClass("selected");
 	$("#aboutNav").delay(400).addClass("selected");
 };
@@ -63,7 +70,7 @@ function scrollToAbout(){
 function scrollToProjects(){
 	 $('html, body').animate({
         scrollTop: $("#projects").offset().top
-    }, 400);
+    }, 600);
 	$('.nav').delay(400).removeClass("selected");
 	$("#projNav").delay(400).addClass("selected");
 };
