@@ -16,6 +16,7 @@
   color:white;
   z-index:2;
   background-attachment:fixed;
+
 }
 
 .navbar{
@@ -30,12 +31,33 @@
 	margin-left:auto;
 	background-color:none;
 	display:inline-block;
+	width:12vw;
+	text-align:center;
 }
 
-.nav2{
+.selected{
+	border-bottom-width:2px;
+   border-bottom-color:White;
+   border-bottom-style: solid;
+}
+
+.social, #sectionNav, #navname{
+	display:inline-block;
+}
+
+.social{
 	float:right;
-	margin:0;
-}	
+	padding-top:5px;
+}
+
+#navname{
+	width:20vw;
+
+}
+
+#sectionNav{
+	float:center;
+}
 
 br{
 	line-height:0px;
@@ -149,6 +171,11 @@ header.sticky {
 	text-shadow: rgb(65, 42, 120) 1px 1px, rgb(65, 42, 120) 2px 2px, rgb(65, 42, 120) 3px 3px,  rgb(65, 42, 120) 4px 4px;;
 }
 
+.pnav{
+	text-shadow: rgb(65, 42, 120) 1px 1px, rgb(65, 42, 120) 2px 2px;
+	font-size:1.5em;
+}
+
 .small{
 	font-size:1em;
 }
@@ -186,11 +213,19 @@ height:5px;
 	background-attachment:fixed;
 }
 .about{
-	height:calc(100vh - 3em);
+	height:calc(100vh);
 	background-color:;
 	background-image:url("blurcity.jpg");
 	background-attachment:fixed;
 }
+
+.projects{
+	height:calc(100vh);
+	background-color:;
+	background-image:url("trianglecity.png");
+	background-attachment:fixed;
+}
+
 .filler3{
 	height:400px;
 	background-color:purple;

@@ -19,16 +19,26 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="preeti_site.js"></script>
+	<script type="text/javascript" src="jquery-visible-master/jquery.visible.min.js"></script>
   </head>
   <body>
   <div class="navbar">
 	<div id="navname" class="nav"><span class="pop violet">Preeti Mohan</span></div>
+	<div id="sectionNav">
+		<div id="aboutNav" onclick="scrollToAbout()" class="nav"><span class="pop pnav">About</span></div>
+		<div id="projNav" onclick="scrollToProjects()" class="nav" ><span class="pop pnav">Projects</span></div>
+		<div id="acaNav" class="nav"><span class="pop pnav">Academics</span></div>
+		<div id="skillNav" class="nav"><span class="pop pnav">Skills</span></div>
+		<div id="contactNav" class="nav"><span class="pop pnav">Contact</span></div>
+	</div>
+	<div class="social">
 	<span style="float:right;"> 
 		<a style = "color:white;" href = "http://github.com/preetsmohan"><i class="fa fa-github-alt"></i></a> &nbsp
 		<a style = "color:white;" href = "http://twitter.com/tweetsbypreets"><i class="fa fa-twitter"></i></a> &nbsp
 		<a style = "color:white;" href = "https://medium.com/@preets"><i class="fa fa-medium"></i></a> &nbsp
 		<a style = "color:white;" href = "mailto:preetmhn@umich.edu"><i class="fa fa-envelope-o"></i></a> &nbsp &nbsp 	
 	</span>
+	</div>
 </div>
   <div class="content">
   <div class="container introtext">
@@ -46,7 +56,10 @@
 	<div class="name"></div>
   </div>
   <div class="about" id="about">
-	<div class="introtext" style="padding-top:4em;"><span class="pop blue">About</span></div>
+	<div class="introtext" id="aboutText" style="padding-top:4em;"><span class="pop blue">About</span></div>
+  </div>
+  <div class="projects" id="projects">
+	<div class="introtext" id="projectText" style="padding-top:4em;"><span class="pop blue">Projects</span></div>
   </div>
   <!--<div class="filler3"></div>
   <div class="filler4"></div>

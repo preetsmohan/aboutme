@@ -27,8 +27,67 @@ $(window).scroll(function () {
 
 });
 
+function isElementVisible(elementToBeChecked)
+{
+    var TopView = $(window).scrollTop();
+    var BotView = TopView + $(window).height();
+    var TopElement = $(elementToBeChecked).offset().top;
+    var BotElement = TopElement + $(elementToBeChecked).height();
+    return ((BotElement <= BotView) && (TopElement >= TopView));
+}
+
+$(window).on('scroll',function () {
+	
+	if( $("#aboutText").visible(true, true))
+	{
+		$('.nav').delay(400).removeClass("selected");
+		$("#aboutNav").delay(400).addClass("selected");
+	}
+	if( $("#projectText").visible(true, true))
+	{
+		$('.nav').delay(400).removeClass("selected");
+		$("#projNav").delay(400).addClass("selected");
+	}
+
+});
+
+
 function scrollToAbout(){
-    $('html, body').animate({
+	 $('html, body').animate({
         scrollTop: $("#about").offset().top
+    }, 400);
+	$('.nav').delay(400).removeClass("selected");
+	$("#aboutNav").delay(400).addClass("selected");
+};
+
+function scrollToProjects(){
+	 $('html, body').animate({
+        scrollTop: $("#projects").offset().top
+    }, 400);
+	$('.nav').delay(400).removeClass("selected");
+	$("#projNav").delay(400).addClass("selected");
+};
+
+function scrollToAcademics(){
+	$('.nav').removeClass("selected");
+	$("#projNav").addClass("selected");
+    $('html, body').animate({
+        scrollTop: $("#projects").offset().top
+    }, 400);
+};
+
+function scrollToSkills(){
+	$('.nav').removeClass("selected");
+	$("#projNav").addClass("selected");
+    $('html, body').animate({
+        scrollTop: $("#projects").offset().top
+    }, 400);
+};
+
+function scrollToContact(){
+	$('.nav').removeClass("selected");
+	$("#projNav").addClass("selected");
+    $('html, body').animate({
+        scrollTop: $("#projects").offset().top
     }, 400);
 };
