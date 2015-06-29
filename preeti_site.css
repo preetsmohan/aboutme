@@ -3,11 +3,13 @@
  width:100%;
  	height:100%;
  }
- 
+.center{
+
+}
  body {
-  font-family: 'Dosis', Sans-Serif;
+ font-family: 'Lobster Two', cursive;
   background-color: rgb(39, 21, 33);
-  background-image: url("city.jpg");
+  background-image: url("blurcity.jpg");
   padding: 0;
   margin: 0;
   width:100%;
@@ -87,7 +89,8 @@ br{
 	padding-bottom: 2%;
 	padding-top:2%;
 	background-attachment: fixed;
-	height:35vh;
+	height:100vh;
+	margin-top:25vh;
 
 }
 
@@ -110,7 +113,7 @@ br{
 }
 
 .pop{
-    font-family: 'Dosis', Sans-Serif;
+    font-family: 'Lobster Two', cursive;
     font-size: 5em;
     font-weight: bold;
 	-moz-transition: all 0.3s ease-out; /* FF3.7+ */
@@ -209,7 +212,7 @@ height:5px;
 
 .filler1{
 	height:25vh;
-	background-image:url("city.jpg");
+	background-image:url("blurcity.jpg");
 	background-attachment:fixed;
 }
 .about{
