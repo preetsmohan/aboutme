@@ -5,7 +5,7 @@
  }
  
  body {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Dosis', Sans-Serif;
   background-color: rgb(39, 21, 33);
   background-image: url("city.jpg");
   padding: 0;
@@ -110,7 +110,7 @@ br{
 }
 
 .pop{
-    font-family: 'Poiret One', cursive;
+    font-family: 'Dosis', Sans-Serif;
     font-size: 5em;
     font-weight: bold;
 	-moz-transition: all 0.3s ease-out; /* FF3.7+ */
@@ -212,11 +212,17 @@ height:5px;
 	background-image:url("city.jpg");
 	background-attachment:fixed;
 }
+.content{
+	height:calc(100vh);
+	background-color:white;
+	/*background-image:url("blurcity.jpg");
+	background-attachment:fixed;*/
+}
 .about{
 	height:calc(100vh);
-	background-color:;
-	background-image:url("blurcity.jpg");
-	background-attachment:fixed;
+	background-color:white;
+	/*background-image:url("blurcity.jpg");
+	background-attachment:fixed;*/
 }
 
 .projects{
