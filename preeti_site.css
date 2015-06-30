@@ -23,11 +23,13 @@
 
 .navbar{
 	width:100%;
+	position:0;
 	position:fixed;
 	z-index:1;
 	line-height:3em;
 	background-color:rgb(0, 128, 135);
 	padding-left:5px;
+	top:0;
 }
 .nav{
 	margin-left:auto;
@@ -89,7 +91,7 @@ br{
 	padding-bottom: 2%;
 	padding-top:2%;
 	background-attachment: fixed;
-	height:100vh;
+	height:75vh;
 	margin-top:25vh;
 
 }
@@ -211,42 +213,31 @@ height:5px;
 }
 
 .filler1{
-	height:25vh;
+	height:0vh;
 	background-image:url("blurcity.jpg");
 	background-attachment:fixed;
 }
 .about{
 	height:calc(100vh);
-	background-color:white;
+	background-color:rgba(75, 57, 76, 0.7);
 	/*background-image:url("blurcity.jpg");
 	background-attachment:fixed;*/
 }
 
-.projects{
-	height:calc(100vh);
-	background-color:;
-	background-image:url("trianglecity.png");
+.box{
+	position:relative;
+	width:98vw;
+	height:17.5vh;
+	background-image:url("blurcity.jpg");
 	background-attachment:fixed;
+	z-index:4;
+	margin-left:.5vw;
+	margin-top:.5vh;
+	font-size:6em;
 }
 
-.filler3{
-	height:400px;
-	background-color:purple;
-		background-image:url("pattern2.png");
-	background-attachment:fixed;
-	opacity:.5;
-}
-.filler4{
-	height:400px;
-	background-color:green;
-	background-image:url("pattern5.jpg");
-	background-attachment:fixed;
-	opacity:.4;
-}
-.filler5{
-	height:400px;
-	background-color:pink;
-		background-image:url("pattern7.jpg");
-	background-attachment:fixed;
-	opacity:.4;
+.box:hover{
+	background-image:none;
+	background-color:white;
+	color:teal;
 }
