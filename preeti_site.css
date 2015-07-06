@@ -1,15 +1,14 @@
-.container
- {
- width:100%;
- 	height:100%;
- }
-.center{
-
+*{
+	margin:0;
+	padding:0;
+	width:100%;
 }
- body {
- font-family: 'Lobster Two', cursive;
-  background-color: rgb(39, 21, 33);
-  background-image: url("blurcity.jpg");
+body {
+ font-family: 'Raleway', sans-serif;
+  
+ background-color: rgb(0, 0, 0);
+  
+ /* background-image: url("blurcity.jpg"); */
   padding: 0;
   margin: 0;
   width:100%;
@@ -17,227 +16,73 @@
   overflow-x:hidden;
   color:white;
   z-index:2;
-  background-attachment:fixed;
-
+  position: absolute;
+ background-attachment:fixed;
+ font-weight: lighter;
 }
-
-.navbar{
+h1{
+	font-weight: 200;
+	padding:0;
+	margin:0;
+	font-size:5em;
+}
+h2{
+	font-weight:200;
+}
+h3{
+	margin-bottom:5px;
+}
+a{
+	color: rgb(172, 187, 208);
+}
+a:hover{
+	color:grey;
+}
+span{
+	color: rgb(213, 224, 212);
+}
+.header{
 	width:100%;
-	position:0;
-	position:fixed;
-	z-index:1;
-	line-height:3em;
-	background-color:rgb(0, 128, 135);
-	padding-left:5px;
-	top:0;
-}
-.nav{
-	margin-left:auto;
-	background-color:none;
-	display:inline-block;
-	width:12vw;
-	text-align:center;
-}
-
-.selected{
-	border-bottom-width:2px;
-   border-bottom-color:White;
-   border-bottom-style: solid;
-}
-
-.social, #sectionNav, #navname{
-	display:inline-block;
-}
-
-.social{
-	float:right;
-	padding-top:5px;
-}
-
-#navname{
-	width:20vw;
-
-}
-
-#sectionNav{
-	float:center;
-}
-
-br{
-	line-height:0px;
-}
-
-.content{
-	width:100%;
-	margin-left:0%;
-}
-
-.info{
-	width:60%;
-	height:90%;
-	margin:auto;
-	margin-left:20%;
-	margin-bottom:5%;
 	background-color:black;
-	opacity:;
-	font-family: Consolas;
-	color: rgb(36, 255, 0);
-	padding-top:15px;
-	padding-left:15px;
-	}
-
-.introtext{
+	height:300px;
 	text-align:center;
-	padding-bottom: 2%;
-	padding-top:2%;
-	background-attachment: fixed;
-	height:75vh;
-	margin-top:25vh;
+	padding-top:120px;
 
 }
-
-.photo{
-	 background-image: url("preets.jpg");
-	 width:200px;
-	 height:200px;
-	 border-radius:15%;
-	 margin-left:auto;
-	 margin-right: auto;
-	 -moz-transition: all 0.3s ease-out; /* FF3.7+ */
-       -o-transition: all 0.3s ease-out; /* Opera 10.5 */
-  -webkit-transition: all 0.3s ease-out; /* Saf3.2+, Chrome */
-          transition: all 0.3s ease-out;
-}
-
-.photo:hover{
-	border-radius:5%;
-
-}
-
-.pop{
-    font-family: 'Lobster Two', cursive;
-    font-size: 5em;
-    font-weight: bold;
-	-moz-transition: all 0.3s ease-out; /* FF3.7+ */
-       -o-transition: all 0.3s ease-out; /* Opera 10.5 */
-  -webkit-transition: all 0.3s ease-out; /* Saf3.2+, Chrome */
-          transition: all 0.3s ease-out;
-}
-
-.pop:hover{
-    left: -6px;
-    top: -6px;
-}
-
-.right{
-text-align:right;
-
-
-}
-
-.blue{
-	text-shadow: #49ACD0 1px 1px, #49ACD0 2px 2px, #49ACD0 3px 3px;
-
-}
-.blue:hover{
-	text-shadow: #49ACD0 1px 1px, #49ACD0 2px 2px, #49ACD0 3px 3px,  #49ACD0 4px 4px,  #49ACD0 5px 5px;
-}
-header{
-	text-shadow: #49ACD0 1px 1px, #49ACD0 2px 2px, #49ACD0 3px 3px;
-		width:100%;
-		height:5%;
-}
-
-header.sticky {
-	text-align:left;
-	position:fixed;
-	font-size:.5em;
-}
-
-.orange{
-	text-shadow: rgb(255, 180, 149) 1px 1px, rgb(255, 180, 149) 2px 2px, rgb(255, 180, 149) 3px 3px;
-	font-size:3em;
-}
-.orange:hover{
-	text-shadow: rgb(255, 180, 149) 1px 1px, rgb(255, 180, 149) 2px 2px, rgb(255, 180, 149) 3px 3px, rgb(255, 180, 149) 4px 4px;
-}
-.purple{
-    text-shadow: rgb(106, 45, 138) 1px 1px, rgb(106, 45, 138) 2px 2px, rgb(106, 45, 138) 3px 3px;
-	font-size:3em;
-}
-.purple:hover{
-	text-shadow: rgb(106, 45, 138) 1px 1px, rgb(106, 45, 138) 2px 2px, rgb(106, 45, 138) 3px 3px, rgb(106, 45, 138) 4px 4px;;
-}
-.violet{
-	text-shadow: rgb(65, 42, 120) 1px 1px, rgb(65, 42, 120) 2px 2px, rgb(65, 42, 120) 3px 3px;
-	font-size:2em;
-}
-.violet{
-	text-shadow: rgb(65, 42, 120) 1px 1px, rgb(65, 42, 120) 2px 2px, rgb(65, 42, 120) 3px 3px,  rgb(65, 42, 120) 4px 4px;;
-}
-
-.pnav{
-	text-shadow: rgb(65, 42, 120) 1px 1px, rgb(65, 42, 120) 2px 2px;
-	font-size:1.5em;
-}
-
-.small{
-	font-size:1em;
-}
-
-.space{
-height:5px;
-}
-
-#scroll{
-	width:80px;
-	height:80px;
-	background-attachment:fixed;
-	border-radius:60%;
-	border:2px solid white;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:30vh;
+.text-wrap{
 	text-align:center;
-	color:white;
-	box-shadow: #49ACD0 1px 1px, #49ACD0 2px 2px, #49ACD0 3px 3px;
-
+	border: 3px white;
+	height:30px;
 }
 
-.down{
-	font-size:70px;
-}
- 
-.filler{
-	padding-top:2%;
+.content
+{
+	background-color:grey;
+	border:10px black solid;
+	display:inline-block;
 }
 
-.filler1{
-	height:0vh;
-	background-image:url("blurcity.jpg");
-	background-attachment:fixed;
-}
 .about{
-	height:calc(100vh);
-	background-color:rgba(75, 57, 76, 0.7);
-	/*background-image:url("blurcity.jpg");
-	background-attachment:fixed;*/
+	background-color: rgb(43, 35, 44);
+	height:300px;
+}
+.projects{
+	background-color: rgb(21, 27, 39);
+	height:315px;
+}
+.skills{
+	background-color: rgb(34, 53, 50);
+	height:315px;
+}
+.contact{
+	background-color: rgb(40, 52, 39);
+}
+.fa{
+	display:inline;
 }
 
-.box{
-	position:relative;
-	width:98vw;
-	height:17.5vh;
-	background-image:url("blurcity.jpg");
-	background-attachment:fixed;
-	z-index:4;
-	margin-left:.5vw;
-	margin-top:.5vh;
-	font-size:6em;
-}
-
-.box:hover{
-	background-image:none;
-	background-color:white;
-	color:teal;
+.row{
+	margin:0;
+	padding-left:30px;
+	padding-right:30px;
 }
