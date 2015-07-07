@@ -122,6 +122,11 @@
 	.about{
 		min-height:250px;
 }
+.contact{
+	min-height:0px;
+	padding-top: 0px;
+}
+}
 @media(max-width: 769px) {
 	.contact{
 		font-size: .75em;
