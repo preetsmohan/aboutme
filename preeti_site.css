@@ -6,7 +6,7 @@
 body {
  font-family: 'Raleway', sans-serif;
   
- background-color: rgb(175, 206, 207);
+ background-color: rgb(207, 175, 207);
   
  /* background-image: url("blurcity.jpg"); */
   padding: 0;
@@ -57,7 +57,7 @@ span{
 .content
 {
 	background-color:grey;
-	border: 10px rgb(175, 206, 207) solid;
+	border: 10px rgb(207, 175, 207) solid;
 	display:inline-block;
 }
 
@@ -74,7 +74,8 @@ span{
 	height:315px;
 }
 .contact{
-	background-color: rgb(40, 52, 39);
+	background-color: rgb(175, 206, 207);
+	height: 70px;
 }
 .fa{
 	display:inline;
