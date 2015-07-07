@@ -6,7 +6,7 @@
 	body {
 	 font-family: 'Raleway', sans-serif;
 
-	 background-color: rgb(207, 175, 207);
+	 background-color: rgb(106, 88, 106);
 
 	  padding: 0;
 	  margin: 0;
@@ -58,7 +58,7 @@
 	.content
 	{
 		background-color:grey;
-		border: 10px rgb(207, 175, 207) solid;
+		border: 10px rgb(106, 88, 106) solid;
 		display:inline-block;
 	}
 
