@@ -136,13 +136,18 @@
 }
 }
 @media(max-width: 769px) {
+
+	.content{
+		min-height:0;
+		border: 5px rgb(106, 88, 106) solid;
+		font-size:21px;
+	}
+	h2{
+		font-size:40px;
+	}
 	.contact{
 		font-size: .6em;
 		padding-top: 0px;
 }
-	.content{
-		min-height:0;
-		border: 5px rgb(106, 88, 106) solid;
-	}
 
 }
