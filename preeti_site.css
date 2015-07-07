@@ -91,6 +91,20 @@
 		padding-left:30px;
 		padding-right:30px;
 	}
+@media(max-width: 1200px) {
+	.contact{
+		font-size: .75em;
+	
+		padding-top: 10px;
+}
+@media(max-width: 1010px) {
+	.about{
+		min-height:370px;
+}
+.contact{
+	min-height:0px;
+	font-size:.7em;
+}
 @media(max-width: 769px) {
 	.contact{
 		font-size: .75em;
