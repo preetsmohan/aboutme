@@ -32,7 +32,7 @@
 		margin-top:0;
 	}
 	a{
-		color: rgb(82, 172, 179);
+		color: rgb(190, 238, 241);
 	
 		font-weight: 500;
 }
@@ -67,26 +67,26 @@
 		min-height: 240px;
 	}
 	.about:hover{
-		background-color:  rgb(255, 100, 100);
+		background-color: rgb(250, 138, 138);
 	}
 	.contact:hover
 	{
-		background-color: rgb(128, 41, 128);
+		background-color: rgb(176, 123, 176);
 		
 	}
 	.projects{
-		background-color: rgb(191, 214, 225);
+		background-color: rgb(129, 178, 201);
 		min-height:315px;
 	}
 	.projects:hover{
-		background-color: rgb(69, 87, 123);
+		background-color: rgb(107, 160, 185);
 	}
 	.skills{
 		background-color: rgb(150, 221, 210);
 		min-height:315px;
 	}
 	.skills:hover{
-		background-color:rgb(53, 205, 210);
+		background-color: rgb(120, 209, 195);
 	}
 	.contact{
 		  background-color: rgb(179, 157, 179);
