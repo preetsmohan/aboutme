@@ -60,9 +60,7 @@
 		background-color:grey;
 		border: 10px rgb(207, 175, 207) solid;
 		display:inline-block;
-	
-		min-height: 0px;
-}
+	}
 
 	.about{
 		background-color: rgb(255, 171, 171);
@@ -73,7 +71,7 @@
 	}
 	.contact:hover
 	{
-		background-color: rgb(173, 90, 199);
+		background-color: rgb(128, 41, 128);
 		
 	}
 	.projects{
@@ -91,12 +89,11 @@
 		background-color:rgb(53, 205, 210);
 	}
 	.contact{
-		  background-color: rgb(181, 153, 190);
+		  background-color: rgb(179, 157, 179);
 		min-height: 70px;
 		font-size: .9em;
 		text-align: center;
-		padding-top: px;
-		
+		padding-top: 5px;
 	}
 	.fa{
 		display:inline;
@@ -113,30 +110,22 @@
 	
 		padding-top: 10px;
 }
-}
 @media(max-width: 1010px) {
 	.about{
-		min-height: 250px;
-}
+		min-height: 390px;
 }
 .contact{
 	min-height:0px;
 	font-size:.7em;
-	padding-top:0px
-}
 }
 @media(max-width: 999px) {
 	.about{
 		min-height:250px;
 }
-.contact{
-	padding-top:0px;
-}
-}
 @media(max-width: 769px) {
 	.contact{
 		font-size: .75em;
-		min-height:70px;
+	
 		padding-top: 10px;
 }
 
