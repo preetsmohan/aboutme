@@ -118,7 +118,7 @@
 	min-height:0px;
 	font-size:.7em;
 }
-@media(max-width: 9909px) {
+@media(max-width: 999px) {
 	.about{
 		min-height:250px;
 }
