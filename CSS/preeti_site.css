@@ -9,7 +9,7 @@
  body {
  font-family: 'Lobster Two', cursive;
   background-color: rgb(39, 21, 33);
-  background-image: url("blurcity.jpg");
+  background-image: url("../city.jpg");
   padding: 0;
   margin: 0;
   width:100%;
@@ -91,13 +91,13 @@ br{
 	padding-bottom: 2%;
 	padding-top:2%;
 	background-attachment: fixed;
-	height:75vh;
+	height:15vh;
 	margin-top:25vh;
 
 }
 
 .photo{
-	 background-image: url("preets.jpg");
+	 background-image: url("../preets.jpg");
 	 width:200px;
 	 height:200px;
 	 border-radius:15%;
@@ -214,22 +214,33 @@ height:5px;
 
 .filler1{
 	height:0vh;
-	background-image:url("blurcity.jpg");
+	background-image:url("../blurcity.jpg");
 	background-attachment:fixed;
 }
 .about{
 	height:calc(100vh);
 	background-color:rgba(75, 57, 76, 0.7);
-	/*background-image:url("blurcity.jpg");
-	background-attachment:fixed;*/
+	background-image:url("../blurcity.jpg");
+	background-attachment:fixed;
+}
+
+.projects{
+	height:calc(100vh);
+	background-color:rgba(75, 57, 76, 0.7);
+	background-image:url("../trianglecity.png");
+	background-attachment:fixed;
+}
+.filler3{
+	height:calc(100vh);
+	background-color:rgba(75, 57, 76, 0.7);
+	background-image:url("../pixelcity.png");
+	background-attachment:fixed;
 }
 
 .box{
 	position:relative;
 	width:98vw;
 	height:17.5vh;
-	background-image:url("blurcity.jpg");
-	background-attachment:fixed;
 	z-index:4;
 	margin-left:.5vw;
 	margin-top:.5vh;
@@ -238,6 +249,9 @@ height:5px;
 
 .box:hover{
 	background-image:none;
-	background-color:white;
+	background-color:;
 	color:teal;
+}
+.box .p:hover{
+	cursor:pointer;
 }

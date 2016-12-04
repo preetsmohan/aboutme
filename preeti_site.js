@@ -11,10 +11,6 @@ if ($(this).scrollTop() > 1){
 
 window.onload = function(){
 	$('.navbar').hide();
-	$('.div1').hide();
-	$('.div2').hide();
-	$('.div3').hide();
-	$('.div4').hide();
 }
 
 $(window).scroll(function () {
